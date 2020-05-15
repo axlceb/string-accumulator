@@ -1,0 +1,34 @@
+name: String Accumulator
+version: 1.0-SNAPSHOT
+cases:
+  - ''
+  - 1
+  - 1,2
+  - 1,1 1,1 1
+  - |
+    1
+    2,3
+  - |
+    //;
+    1;2
+  - |
+    1,1 1,1
+    1
+  - 0,-1,2,3,-4,5
+  - 2,1001
+  - |
+    //***
+    1***2***3
+
+#NOTE: the pipe | symbol in front of the string turns every newline within the string into a literal newline
+# Cases:
+# Case for task 1: ""
+# Case for task 1: "1"
+# Case for task 1: "1,2"
+# Case for task 2: "1,1 1,1 1"
+# Case for task 3: "1\n2,3"
+# Case for task 4: "//;\n1;2"
+# Case for task 4: "1,1 1,1\n1"
+# Case for task 5: "0,-1,2,3,-4,5"
+# Case for task 6: "2,1001"
+# Case for task 7: "//***\n1***2***3"
