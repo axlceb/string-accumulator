@@ -19,8 +19,14 @@ cases:
   - |
     //***
     1***2***3
+  - |
+    //*|%
+    1*2%3
+  - |
+    //delim1|delim2
+    1delim12delim23
 
-#NOTE: the pipe | symbol in front of the string turns every newline within the string into a literal newline
+# NOTE: the pipe | symbol in front of the string turns every newline within the string into a literal newline
 # Cases:
 # Case for task 1: ""
 # Case for task 1: "1"
@@ -32,3 +38,5 @@ cases:
 # Case for task 5: "0,-1,2,3,-4,5"
 # Case for task 6: "2,1001"
 # Case for task 7: "//***\n1***2***3"
+# Case for task 8: "//*|%\n1*2%3"
+# Case for task 9: "//delim1|delim2\n1delim12delim23"

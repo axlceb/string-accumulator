@@ -16,6 +16,8 @@ import static org.junit.Assert.assertEquals;
  * Task 5: "0,-1,2,3,-4,5"
  * Task 6: "2,1001"
  * Task 7: "//***\n1***2***3"
+ * Task 8: "//*|%\n1*2%3"
+ * Task 9: "//delim1|delim2\n1delim12delim23"
  */
 public class StringServiceTest {
 
@@ -57,5 +59,15 @@ public class StringServiceTest {
     @Test
     public void addTestCase7() {
         assertEquals(6, stringService.add("//***\n1***2***3"));
+    }
+
+    @Test
+    public void addTestCase8() {
+        assertEquals(6, stringService.add("//*|%\n1*2%3"));
+    }
+
+    @Test
+    public void addTestCase9() {
+        assertEquals(6, stringService.add("//delim1|delim2\n1delim12delim23"));
     }
 }

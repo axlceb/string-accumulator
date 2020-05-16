@@ -29,7 +29,6 @@ String Accumulator
 a. If there are multiple negatives, show all of them in the exception message.
 6. Numbers bigger than 1000 should be ignored, so adding 2 + 1001 = 2.
 7. Delimiters can be of any length, for example: “//***\n1***2***3” should return 6.
-<On going>
 8. Allow multiple delimiters like this: “//delim1|delim2\n” (with a “|” separating delimiters), for example “//*|%\n1*2%3” should return 6.
 9. Make sure you can also handle multiple delimiters with length longer than one character.
 ````
@@ -94,4 +93,6 @@ Task 4: "1,1 1,1\n1"
 Task 5: "0,-1,2,3,-4,5"
 Task 6: "2,1001"
 Task 7: "//***\n1***2***3"
+Task 8: "//*|%\n1*2%3"
+Task 9: "//delim1|delim2\n1delim12delim23"
 ```
